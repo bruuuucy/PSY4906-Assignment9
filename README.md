@@ -1,4 +1,4 @@
-**Assignment9**
+**Assignment9**  
 use library of readr to import csv file into Rstudio  
 use function summary() to summarize the three columns of data  
 use library of ggplot2 to draw a graph  
