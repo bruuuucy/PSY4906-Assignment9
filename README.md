@@ -1,15 +1,5 @@
----
-title: "Assignment9"
-output: html_document
----
-
-Summarize three columns
-```{r}
-summary(Dessert)
-```
-visually represents the data in some way
-```{r}
-library(ggplot2)
-ggplot(Dessert, aes(rate, quantity, fill = dessert)) + geom_point() + theme_classic()
-```
-
+**Assignment9**
+use library of readr to import csv file into Rstudio
+use function summary() to summarize the three columns of data
+use library of ggplot2 to draw a graph
+use function ggplot() to draw a scatter point graph to represent the data
